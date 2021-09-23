@@ -1,0 +1,53 @@
+### Columns
+
+- institution name
+- year
+- Instructional staff category
+- Grand total
+- Grand total men
+- Grand total women
+- American Indian or Alaska Native total
+- American Indian or Alaska Native men
+- American Indian or Alaska Native women
+- Black or African American total
+- Black or African American men
+- Black or African American women
+- Hispanic or Latino total
+- Hispanic or Latino men
+- Hispanic or Latino women
+- White total
+- White men
+- White women
+- Race/ethnicity unknown total
+- Race/ethnicity unknown men
+- Race/ethnicity unknown women
+- Nonresident alien total
+- Nonresident alien men
+- Nonresident alien women
+- Two or more races total
+- Two or more races men
+- Two or more races women
+
+### Instructional staff category
+
+- tenured, professors 
+- tenured, associate professors
+- tenured, assistant professors
+- tenured, instructors
+- tenured total
+- on-tenure track, professors
+- on-tenure track, associate professors
+- on-tenure track, assistant professors
+- on-tenure track, instructors
+- on-tenure track total
+- not on tenure/no tenure system, associate professors
+- not on tenure/no tenure system, assistant professors
+- not on tenure/no tenure system, instructors
+- not on tenure track/no tenure system system total
+- not on tenure/no tenure system, professors
+- not on tenure/no tenure system, lecturers
+- not on tenure/no tenure system, no academic rank
+- tenured, no academic rank
+- tenured, lecturers
+- on-tenure track, lecturers
+- on-tenure track, no academic rank
