@@ -91,10 +91,13 @@ def open_and_concat(filelist):
     df8 , year8  = preprocess(filelist[8])
     df9 , year9  = preprocess(filelist[9])
     df10, year10 = preprocess(filelist[10])  # 2019
+    df11, year11 = preprocess(filelist[11])
     
-    df = pd.concat([df0, df1, df2, df3, df4, df5, df6, df7, df8, df9, df10], 
+    df = pd.concat([df0, df1, df2, df3, df4, df5, df6, df7, 
+                    df8, df9, df10, df11], 
                    keys=[year0, year1, year2, year3, year4, 
-                         year5, year6, year7, year8, year9, year10], 
+                         year5, year6, year7, year8, year9, 
+                         year10, year11], 
                    sort=False)
     
     return df
@@ -118,21 +121,24 @@ def physical_sciences(df):
     Filter physical sciences degree programs.
     """
     return df.loc[(df['CIP Code -  2000 Classification'] == "'40'") |
-                  (df['CIP Code -  2010 Classification'] == "'40'")]
+                  (df['CIP Code -  2010 Classification'] == "'40'") |
+                  (df['CIP Code -  2020 Classification'] == "'40'")]
 
 def atmospheric_sciences(df):
     """
     Filter atmospheric sciences degree programs.
     """
     return df.loc[(df['CIP Code -  2000 Classification'] == "'40.04'") |
-                  (df['CIP Code -  2010 Classification'] == "'40.04'")]
+                  (df['CIP Code -  2010 Classification'] == "'40.04'") |
+                  (df['CIP Code -  2020 Classification'] == "'40.04'")]
 
 def earth_sciences(df):
     """
     Filter Earth sciences degree programs.
     """
     return df.loc[(df['CIP Code -  2000 Classification'] == "'40.06'") |
-                  (df['CIP Code -  2010 Classification'] == "'40.06'")]
+                  (df['CIP Code -  2010 Classification'] == "'40.06'") |
+                  (df['CIP Code -  2020 Classification'] == "'40.06'")]
 
 def earth_and_atmos_sciences(df):
     """
@@ -141,7 +147,9 @@ def earth_and_atmos_sciences(df):
     return df.loc[(df['CIP Code -  2000 Classification'] == "'40.06'") |
                   (df['CIP Code -  2000 Classification'] == "'40.04'") |
                   (df['CIP Code -  2010 Classification'] == "'40.06'") |
-                  (df['CIP Code -  2010 Classification'] == "'40.04'")]
+                  (df['CIP Code -  2010 Classification'] == "'40.04'") |
+                  (df['CIP Code -  2020 Classification'] == "'40.06'") |
+                  (df['CIP Code -  2020 Classification'] == "'40.04'")]
 
 def all_degreesandcerts(df):
     """
