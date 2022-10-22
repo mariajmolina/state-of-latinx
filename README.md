@@ -10,4 +10,4 @@ Data are available in the data folder or can be obtained directly from the follo
 
 ---
 
-Morales, A., M. J. Molina, J. E. Trujillo-Falcón, A. L. Lang, B. S. Barrett, L. Aviles, S. J. Camargo, K. M. Nuñez Ocasio, C. Bieri, and E. Murillo (In Preparation); Hispanic and Latinx Academics and Researchers in the Atmospheric Sciences: the People, the Challenges, and the Future. Bulletin of the American Meteorological Society.
+Morales, A., M. J. Molina, J. E. Trujillo-Falcón, K. M. Nuñez Ocasio, A. L. Lang, E. Murillo, C. Bieri, B. S. Barrett, L. B. Avilés, and S. J. Camargo (Under Review); Commitment to Active Allyship is Required to Address the Lack of Hispanic and Latinx Representation in the Earth and Atmospheric Sciences. Bulletin of the American Meteorological Society.
